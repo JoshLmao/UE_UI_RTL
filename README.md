@@ -2,6 +2,11 @@
 
 Investigating RTL supporting in UE and how to easily support it in UI
 
+Good references:
+
+- **Localization in Unreal Engine (UE4)** by Chris
+  McCole - [Link](https://www.chrismccole.com/blog/localization-in-unreal-engine-ue4)
+
 # Localization Dashboard
 
 Everything is localized using the basic Unreal way.
