@@ -10,4 +10,9 @@ void AAPlayerHUD::BeginPlay()
 
     const auto RootWidgetInst = CreateWidget(GetOwningPlayerController(), RootWidget);
     RootWidgetInst->AddToViewport();
+
+    FInputModeUIOnly UIOnly;
+    UIOnly.SetWidgetToFocus(RootWidgetInst->TakeWidget());
+    GetOwningPlayerController()->SetInputMode(UIOnly);
+    GetOwningPlayerController()->bShowMouseCursor = true;
 }
