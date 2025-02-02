@@ -10,7 +10,8 @@
  * 
  */
 UCLASS()
-class UE_UI_RTL_API AAPlayerHUD : public AHUD {
+class UE_UI_RTL_API AAPlayerHUD : public AHUD
+{
     GENERATED_BODY()
 
 protected:

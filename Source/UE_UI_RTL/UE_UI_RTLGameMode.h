@@ -7,7 +7,8 @@
 #include "UE_UI_RTLGameMode.generated.h"
 
 UCLASS(minimalapi)
-class AUE_UI_RTLGameMode : public AGameModeBase {
+class AUE_UI_RTLGameMode : public AGameModeBase
+{
     GENERATED_BODY()
 
 public:

@@ -4,7 +4,8 @@
 
 #include "Blueprint/UserWidget.h"
 
-void AAPlayerHUD::BeginPlay() {
+void AAPlayerHUD::BeginPlay()
+{
     Super::BeginPlay();
 
     const auto RootWidgetInst = CreateWidget(GetOwningPlayerController(), RootWidget);
